@@ -51,11 +51,11 @@ header section img {
     margin: 0 auto;
 }
 h2 {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10vw;
     letter-spacing:0.5vw;
     margin:5vw auto;
-    font-weight: lighter;
+    font-weight: initial;
 }
 /* 
 #######################################
@@ -98,17 +98,19 @@ main section article h3 {
     font-size: 6vw;
     margin: 3vw auto;
 }
+main section article a {
+    font-family: 'Fjalla One', sans-serif;
+    padding:1vw 1.5vw;
+}
 main section:nth-child(even) article a {
     text-decoration: none;
     color: #333;
     border: 1px solid #333;
-    padding:1vw;
 }
 main section:nth-child(odd) article a {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding:1vw;
 }
 main section:nth-child(odd) article a:hover {
     color: #333;
@@ -140,7 +142,8 @@ main section:last-of-type article h3 {
     text-align: center;
     font-size: 10vw;
     margin: 0 auto;
-
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 main section:last-of-type article div {
     width: 80vw;
@@ -182,6 +185,7 @@ footer section article a {
     font-size: 8vw;
     color: #000;
     text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
 }
 footer section article a:hover {
     text-decoration: underline;
