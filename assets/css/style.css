@@ -165,10 +165,41 @@ main section:last-of-type article div a:hover {
     opacity: 0.8;
 }
 
-
-
 /* 
 #######################################
             FOOTER
 #######################################
 */
+footer {
+    text-align: center;
+    margin: 5vw auto;
+}
+footer section article p {
+    margin: 5vw 0;
+}
+footer section article a {
+    width:100vw;
+    font-size: 8vw;
+    color: #000;
+    text-decoration: none;
+}
+footer section article a:hover {
+    text-decoration: underline;
+}
+footer section:last-of-type article {
+    height: 10vw;
+}
+footer section:last-of-type article p {
+    animation-name: herz;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes herz {
+    from {
+        font-size: 1vw;
+    }
+    to {
+        font-size: 1.5vw;
+    }
+}
