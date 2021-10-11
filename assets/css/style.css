@@ -46,10 +46,8 @@ header h1 {
     font-size: 6vw;
     font-family: 'Didact Gothic', sans-serif;
 }
-header section {
-    background: url(../img/man.jpeg)center/cover no-repeat;
+header section img {
     width: 50vw;
-    height: 100vw;
     margin: 0 auto;
 }
 h2 {
@@ -66,6 +64,18 @@ h2 {
 */
 main section:first-of-type {
     background: url(../img/handshake.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+main section:nth-of-type(2){
+    background: url(../img/notebook.png) center/cover no-repeat;
+    height: 100vh;
+}
+main section:nth-of-type(3){
+    background: url(../img/grill.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+main section:nth-of-type(4){
+    background: url(../img/smartphone.png) center/cover no-repeat;
     height: 100vh;
 }
 main section article {
@@ -106,22 +116,20 @@ main section article a:hover + h4 {
     opacity: 1;
 }
 
-main section:nth-of-type(2){
-    background: url(../img/notebook.png) center/cover no-repeat;
-    height: 100vh;
-    color: #333;
-}
-main section:nth-of-type(2) article {
-    color: #333;
-}
-main section:nth-of-type(2) article a {
-    color: #333;
+
+
+main section:nth-child(odd) article a {
     border: 1px solid #333;
 }
-main section:nth-of-type(2) article a:hover {
-    color: #fff;
+main section:nth-child(odd) article a:hover {
     border: 1px solid #333;
     background:#333;
+}
+main section:nth-child(odd) article {
+    color:#fff;
+}
+main section:nth-child(even) article {
+    color:#333;
 }
 
 
